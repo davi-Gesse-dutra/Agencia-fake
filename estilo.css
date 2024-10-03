@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    background: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* meu header*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.logo{
+    color: rgb(65, 61, 64) ;
+    font-size: 15px ;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+    font-family: pacifico;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: sticky;
+    cursor: pointer;
+    
+    
+} 
+
+.navbar{ 
+    letter-spacing: 2px;
+   display: inline-block;
+   font-size: 20px;
+   word-spacing: 10px;
+   list-style: none;
+   
+   margin-right: 9rem;
+   position: sticky;
+   
+}
+
+.home:hover{
+    border-bottom: 3px solid rgb(242, 95, 190);
+    font-size: 22px;
+    color: rgb(226, 43, 43);
+}
+.sobrenos:hover{
+    border-bottom: 3px solid rgb(237, 66, 200);
+    font-size: 22px;
+    color: rgb(226, 43, 43);
+}
+
+.servicos:hover{
+    border-bottom: 3px solid rgb(222, 83, 183);
+    font-size: 22px;
+    color: rgb(226, 43, 43);
+}
+
+   .faleconosco {
+    background: rgb(118, 12, 218);
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+.faleconosco:hover{
+    background: red;
+    padding: 15px;
+    border-radius: 15px;
+    color: black
+}
+   
+
+/*conteudo principal*/
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.texto{
+    margin-left: 5rem;
+    margin-top: 9rem;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    cursor: pointer;
+    
+}
+.texto:hover{
+    font-size:30px ;
+    color: blueviolet;
+}
+.h1-principal{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.p1{
+    margin-bottom: 0;
+    letter-spacing: 10px;
+}
+
+
+
+.botao{
+  
+   font-size: 15px; 
+    margin-left: 1rem;
+    border: 2px solid black;
+    color: white;
+    background: purple ;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    text-align: center;
+
+    
+   
+}
+.botao:hover{
+    background: red;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: black;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  
+}
+
+
+
+/*pagina 2 */
+.h1-pg2{
+    color: rgb(75, 59, 69);
+    margin-left: 31%;
+    font-size: 25px;
+    margin-top: 35px;
+    font-family: pacifico;
+    cursor: pointer;
+
+}
+.h1-pg2:hover{
+    font-size: 27px;
+    color: blueviolet;
+}
+.sessao{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+
+   
+}
+.paragrafo2{
+width: 400px;
+height: 260px;
+margin-left: 5%;
+border: 2px solid black;
+text-align: center;
+cursor: pointer;
+
+}
+.paragrafo3{
+    width: 400px;
+    height: 260px;
+    border: 2px solid rgb(237, 140, 201);
+    text-align: center;
+}
+.paragrafo4{
+    width: 400px;
+    height: 260px;
+    margin-right: 5%;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.paragrafo2:hover{
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(211, 38, 145);
+}
+.paragrafo3:hover{
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(211, 38, 145);
+}
+.paragrafo4:hover{
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(211, 38, 145);
+}
+
+.rodape {
+    background-color: #611649;
+    text-align: center;
+    padding: 90px;
+    margin-top: 140px;
+    border: 5px solid rgb(239, 20, 162);
+    
+}
+.footer{
+    color: blueviolet;
+    font-family: pacifico;
+    letter-spacing: 20px;
+    
+}
+.p3{
+    letter-spacing: 10px;
+}
+.p4{
+    letter-spacing: 10px;
+}
+.autor{
+    letter-spacing: 10px;
+}
